@@ -21,6 +21,7 @@ import com.example.springbhootcrudapp.app.servicei.ProductServicei;
 @RequestMapping("/product")
 public class ProductController 
 {
+	//statuscode controller 
 	@Autowired
 	ProductServicei psi;
 	@PostMapping("/product")
